@@ -18,7 +18,7 @@ onMounted(() => {
       },
     },
     legend: {
-      data: ['Forest', 'Steppe', 'Desert', 'Wetland'],
+      data: ['Forest', 'Steppe'],
     },
     toolbox: {
       show: true,
@@ -65,24 +65,24 @@ onMounted(() => {
         },
         data: [220, 182, 191, 234, 290],
       },
-      {
-        name: 'Desert',
-        type: 'bar',
-        // label: labelOption,
-        emphasis: {
-          focus: 'series',
-        },
-        data: [150, 232, 201, 154, 190],
-      },
-      {
-        name: 'Wetland',
-        type: 'bar',
-        // label: labelOption,
-        emphasis: {
-          focus: 'series',
-        },
-        data: [98, 77, 101, 99, 40],
-      },
+      // {
+      //   name: 'Desert',
+      //   type: 'bar',
+      //   // label: labelOption,
+      //   emphasis: {
+      //     focus: 'series',
+      //   },
+      //   data: [150, 232, 201, 154, 190],
+      // },
+      // {
+      //   name: 'Wetland',
+      //   type: 'bar',
+      //   // label: labelOption,
+      //   emphasis: {
+      //     focus: 'series',
+      //   },
+      //   data: [98, 77, 101, 99, 40],
+      // },
     ],
   };
   chart.setOption(option);

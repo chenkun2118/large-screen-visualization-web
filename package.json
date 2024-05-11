@@ -17,6 +17,7 @@
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css,vue}\""
   },
   "dependencies": {
+    "@kjgl77/datav-vue3": "^1.7.2",
     "echarts": "^5.5.0",
     "element-plus": "^2.7.2",
     "vue": "^3.4.21",
